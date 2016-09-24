@@ -1,7 +1,0 @@
-modEntry = {
-	Client = "lua/UWEBalance/Client.lua",
-	Server = "lua/UWEBalance/Server.lua",
-	Shared = "lua/UWEBalance/Shared.lua",
-	FileHooks = "lua/UWEBalance/Filehook.lua",
-	Priority = 50
-}

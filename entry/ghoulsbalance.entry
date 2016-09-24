@@ -1,0 +1,7 @@
+modEntry = {
+	Client = "lua/GhoulsBalance/Client.lua",
+	Server = "lua/GhoulsBalance/Server.lua",
+	Shared = "lua/GhoulsBalance/Shared.lua",
+	FileHooks = "lua/GhoulsBalance/Filehook.lua",
+	Priority = 50
+}
