@@ -3,7 +3,8 @@ local kMaxShield = 1000
 MucousableMixin.networkVars =
 {
 	mucousShield = "boolean",
-	shieldRemaining = string.format("float (0 to %f by 1)", kMaxShield)
+	shieldRemaining = string.format("float (0 to %f by 1)", kMaxShield),
+	forcedAmount = string.format("float (0 to %f by 1)", kMaxShield)
 }
 
 function MucousableMixin:__initmixin()
