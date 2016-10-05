@@ -10,7 +10,6 @@ Current changes:
 
 - Silence
     - Silence no longer affects any "non movement" sounds
-    - Silence decreases the sound of alien movement for Spur 1 by 6 db, for Spur 2 by 10 db and for Spur 3 by 20 db (Before Spur 1: -3.5 db, Spur 2: -9.6 db and Spur 3: -∞ (absolutely silent))
 
 - Mucous Cloud
     - Increased the mucous shield hp to 25% (from 15%) of the traget's hp
