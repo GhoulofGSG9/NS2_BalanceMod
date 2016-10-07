@@ -8,6 +8,12 @@ Current changes:
     - Increased Onos cost to 62 personal resources
     - Boneshield doesn't heal armor anymore and instead grants a mucous shield of 400 hp while being used.
 
+- Lerk
+    - Increase non-celerity flap force to match celerity to reduce Lerk’s dependence on Celerity
+    - Increased strafe flap force to help with spiking
+    - Improved crouch diving mechanics to help with ambushing and spiking
+
+
 - Silence
     - Silence no longer affects any "non movement" sounds
 

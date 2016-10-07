@@ -12,3 +12,6 @@ ModLoader.SetupFileHook( "lua/Weapons/Marine/Shotgun.lua", "lua/GhoulsBalance/Sh
 
 --Silence
 ModLoader.SetupFileHook( "lua/Weapons/Alien/Ability.lua", "lua/GhoulsBalance/Ability.lua", "post" )
+
+--Lerk movement changes
+ModLoader.SetupFileHook( "lua/Lerk.lua", "lua/GhoulsBalance/Lerk.lua", "post" )
