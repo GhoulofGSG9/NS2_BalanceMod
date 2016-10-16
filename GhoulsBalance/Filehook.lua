@@ -9,3 +9,5 @@ ModLoader.SetupFileHook( "lua/MucousableMixin.lua", "lua/GhoulsBalance/Mucousabl
 
 --Silence
 ModLoader.SetupFileHook( "lua/Weapons/Alien/Ability.lua", "lua/GhoulsBalance/Ability.lua", "post" )
+ModLoader.SetupFileHook( "lua/Weapons/Alien/DropStructureAbility.lua", "lua/GhoulsBalance/DropStructureAbility.lua", "post" )
+ModLoader.SetupFileHook( "lua/Weapons/Alien/Metabolize.lua", "lua/GhoulsBalance/Metabolize.lua", "post" )
