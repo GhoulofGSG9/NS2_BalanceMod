@@ -6,6 +6,10 @@ Current changes:
 
 - Onos 
     - Boneshield doesn't heal armor anymore and instead grants a mucous shield of 400 hp while being used.
+    
+- Lerk
+    - Increased base health of lerk to 150 (from 125)
+    - Decreased biomass bonus to 2 (from 3)
 
 - Silence
     - Silence no longer affects any "attack" sounds
