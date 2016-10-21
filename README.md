@@ -8,7 +8,7 @@ Current changes:
     - Boneshield doesn't heal armor anymore and instead grants a mucous shield of 400 hp while being used.
 
 - Silence
-    - Silence no longer affects any "non movement" sounds
+    - Silence no longer affects any "attack" sounds
 
 - Mucous Cloud
     - Increased the mucous shield hp to 25% (from 15%) of the traget's hp
