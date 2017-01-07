@@ -3,7 +3,7 @@ kBoneShieldArmorPerSecond = 0
 kBoneShieldMuscuous = 400
 
 --Mucous cloud buff
-kMucousShieldPercent = 0.25
+kMucousShieldPercent = 0.20
 
 --Lerk
 kLerkHealth = 150

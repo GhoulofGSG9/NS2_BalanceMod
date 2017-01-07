@@ -15,7 +15,7 @@ Current changes:
     - Silence no longer affects any "attack" sounds
 
 - Mucous Cloud
-    - Increased the mucous shield hp to 25% (from 15%) of the traget's hp
+    - Increased the mucous shield hp to 20% (from 15%) of the traget's hp
 
 Code @ Github: https://github.com/GhoulofGSG9/NS2_BalanceMod/tree/ghoulsbalancemod
 
