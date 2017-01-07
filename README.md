@@ -17,6 +17,9 @@ Current changes:
 - Mucous Cloud
     - Increased the mucous shield hp to 20% (from 15%) of the traget's hp
 
+- MG
+    -Decreased weight to 0.21 (150% of the GL) from 0.26
+
 Code @ Github: https://github.com/GhoulofGSG9/NS2_BalanceMod/tree/ghoulsbalancemod
 
 Feel free to leave feedback ;)

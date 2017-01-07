@@ -9,3 +9,5 @@ kMucousShieldPercent = 0.20
 kLerkHealth = 150
 kLerkHealthPerBioMass = 2
 
+--HMG
+kHeavyMachineGunWeight = 0.21
