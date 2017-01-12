@@ -15,3 +15,7 @@ kHeavyMachineGunWeight = 0.21
 --Biomass 3 research
 kBioMassThreeTime = 60
 kResearchBioMassThreeCost = 60
+
+-- Fade Energy
+kStartBlinkEnergyCost = 7
+kBlinkEnergyCost = 46

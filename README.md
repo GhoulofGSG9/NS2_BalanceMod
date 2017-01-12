@@ -23,7 +23,13 @@ Current changes:
 - Hive
     - Added a Biomasss 3 reserach tech
         - Costs 60 tres and takes 60 sec to research
-        - It's only avaible at the first hive of the alien team        
+        - It's only avaible at the first hive of the alien team
+            
+- Fade
+    - Blink
+        - Lowered activation energy costs to 7 (from 14)
+        - Increased usage energy costs to 46/sec (from 35/sec)
+        - This change makes using blink shortly (<0.6 secs) cheaper and allows to use it similair to the old shadow step.
 
 Code @ Github: https://github.com/GhoulofGSG9/NS2_BalanceMod/tree/ghoulsbalancemod
 
