@@ -19,6 +19,11 @@ Current changes:
 
 - MG
     - Decreased weight to 0.21 (150% of the GL) from 0.26
+    
+- Hive
+    - Added a Biomasss 3 reserach tech
+        - Costs 60 tres and takes 60 sec to research
+        - It's only avaible at the first hive of the alien team        
 
 Code @ Github: https://github.com/GhoulofGSG9/NS2_BalanceMod/tree/ghoulsbalancemod
 

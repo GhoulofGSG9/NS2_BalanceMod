@@ -11,3 +11,7 @@ kLerkHealthPerBioMass = 2
 
 --HMG
 kHeavyMachineGunWeight = 0.21
+
+--Biomass 3 research
+kBioMassThreeTime = 60
+kResearchBioMassThreeCost = 60

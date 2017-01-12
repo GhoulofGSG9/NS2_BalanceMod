@@ -11,3 +11,7 @@ ModLoader.SetupFileHook( "lua/MucousableMixin.lua", "lua/GhoulsBalance/Mucousabl
 ModLoader.SetupFileHook( "lua/Weapons/Alien/Ability.lua", "lua/GhoulsBalance/Ability.lua", "post" )
 ModLoader.SetupFileHook( "lua/Weapons/Alien/DropStructureAbility.lua", "lua/GhoulsBalance/DropStructureAbility.lua", "post" )
 ModLoader.SetupFileHook( "lua/Weapons/Alien/Metabolize.lua", "lua/GhoulsBalance/Metabolize.lua", "post" )
+
+-- Biomass 3 research
+ModLoader.SetupFileHook( "lua/AlienTeam.lua", "lua/GhoulsBalance/AlienTeam.lua", "post" )
+ModLoader.SetupFileHook( "lua/TeamInfo.lua", "lua/GhoulsBalance/TeamInfo.lua", "post" )
