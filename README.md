@@ -24,6 +24,8 @@ Current changes:
     - Added a Biomasss 3 reserach tech
         - Costs 60 tres and takes 60 sec to research
         - It's only avaible at the first hive of the alien team
+    - Spore Research
+        - Increased biomass requierement to 5 (from 4)
             
 - Fade
     - Blink
