@@ -17,3 +17,7 @@ ModLoader.SetupFileHook( "lua/AlienTeam.lua", "lua/GhoulsBalance/AlienTeam.lua",
 ModLoader.SetupFileHook( "lua/TeamInfo.lua", "lua/GhoulsBalance/TeamInfo.lua", "post" )
 ModLoader.SetupFileHook( "lua/TechTree_Server.lua", "lua/GhoulsBalance/TechTree_Server.lua", "post" )
 ModLoader.SetupFileHook( "lua/AlienTechMap.lua", "lua/GhoulsBalance/AlienTechMap.lua", "post" )
+
+--drifter techs
+ModLoader.SetupFileHook( "lua/Drifter.lua", "lua/GhoulsBalance/Drifter.lua", "post" )
+ModLoader.SetupFileHook( "lua/AlienTechMap.lua", "lua/GhoulsBalance/AlienTechMap_Drifter.lua", "post" )
