@@ -21,3 +21,11 @@ ModLoader.SetupFileHook( "lua/AlienTechMap.lua", "lua/GhoulsBalance/AlienTechMap
 --drifter techs
 ModLoader.SetupFileHook( "lua/Drifter.lua", "lua/GhoulsBalance/Drifter.lua", "post" )
 ModLoader.SetupFileHook( "lua/AlienTechMap.lua", "lua/GhoulsBalance/AlienTechMap_Drifter.lua", "post" )
+
+--Alien upgrades tech swap
+ModLoader.SetupFileHook( "lua/TechTree_Server.lua", "lua/GhoulsBalance/TechTree_Server_Upgrades.lua", "post" )
+ModLoader.SetupFileHook( "lua/AlienTeam.lua", "lua/GhoulsBalance/AlienTeam_Upgrades.lua", "post" )
+ModLoader.SetupFileHook( "lua/AlienTechMap.lua", "lua/GhoulsBalance/AlienTechMap_Upgrades.lua", "post" )
+ModLoader.SetupFileHook( "lua/GUIUtility.lua", "lua/GhoulsBalance/GUIUtility.lua", "post" )
+ModLoader.SetupFileHook( "lua/GUIUpgradeChamberDisplay.lua", "lua/GhoulsBalance/GUIUpgradeChamberDisplay.lua", "post" )
+ModLoader.SetupFileHook( "lua/TechData.lua", "lua/GhoulsBalance/TechData.lua", "post" )

@@ -13,6 +13,13 @@ Current changes:
 
 - Silence
     - Silence no longer affects any "attack" sounds
+    - Requieres now a Shade Hive (instead of a Shift Hive)
+    
+- Vampirism 
+    - Requires now a Crag Hive (instead of a Shade Hive)
+    
+- Crush
+    - Requires now a Shift Hive (instead of a Crag Hive)
 
 - Mucous Cloud
     - Increased the mucous shield hp to 20% (from 15%) of the traget's hp
