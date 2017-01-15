@@ -45,7 +45,7 @@ Current changes:
 - Drifter 
     - Added passive abilities for each hive type:
         - Camouflage (Shade Hive): Drifters turn invisble when they idle.
-        - Regenration (Crag Hive): Drifter regenerate 3% of their hp every 2 secs while being hurt.
+        - Regeneration (Crag Hive): Drifter regenerate 3% of their hp every 2 secs while being hurt.
         - Celerity (Shift Hive): Drifters move 18% faster.
 
 Code @ Github: https://github.com/GhoulofGSG9/NS2_BalanceMod/tree/ghoulsbalancemod
