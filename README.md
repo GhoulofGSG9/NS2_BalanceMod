@@ -1,5 +1,7 @@
 # Ghouls Balance Mod
 
+**SteamWorks Mod ID**: *2dd47a50*
+
 This mod contains various prototype balance changes based on various ideas of the NS2 balance team.
 
 Current changes:
