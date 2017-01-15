@@ -29,3 +29,4 @@ ModLoader.SetupFileHook( "lua/AlienTechMap.lua", "lua/GhoulsBalance/AlienTechMap
 --ModLoader.SetupFileHook( "lua/GUIUtility.lua", "lua/GhoulsBalance/GUIUtility.lua", "post" )
 ModLoader.SetupFileHook( "lua/GUIUpgradeChamberDisplay.lua", "lua/GhoulsBalance/GUIUpgradeChamberDisplay.lua", "post" )
 ModLoader.SetupFileHook( "lua/TechData.lua", "lua/GhoulsBalance/TechData.lua", "post" )
+ModLoader.SetupFileHook( "lua/CloakableMixin.lua", "lua/GhoulsBalance/CloakableMixin.lua", "post" )
