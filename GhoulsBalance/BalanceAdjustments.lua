@@ -18,4 +18,4 @@ kResearchBioMassThreeCost = 60
 
 -- Fade Energy
 kStartBlinkEnergyCost = 7
-kBlinkEnergyCost = 46
+kBlinkEnergyCost = 49
