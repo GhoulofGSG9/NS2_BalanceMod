@@ -19,6 +19,3 @@ kResearchBioMassThreeCost = 60
 -- Fade Energy
 kStartBlinkEnergyCost = 7
 kBlinkEnergyCost = 49
-
---drifter
-kDrifterCost = 10

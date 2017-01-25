@@ -39,15 +39,14 @@ Current changes:
 - Fade
     - Blink
         - Lowered activation energy costs to 7 (from 14)
-        - Increased usage energy costs to 49/sec (from 35/sec)
-        - This change makes using blink shortly (<0.5 secs) cheaper and allows to use it similair to the old shadow step.
+        - Increased usage energy costs to 46/sec (from 35/sec)
+        - This change makes using blink shortly (<0.6 secs) cheaper and allows to use it similair to the old shadow step.
         
 - Drifter 
     - Added passive abilities for each hive type:
         - Camouflage (Shade Hive): Drifters turn invisble when they idle.
         - Regeneration (Crag Hive): Drifter regenerate 3% of their hp every 2 secs while being hurt.
         - Celerity (Shift Hive): Drifters move 18% faster.
-    - Increased drifter cost to 10 tres (from 8)
 
 Code @ Github: https://github.com/GhoulofGSG9/NS2_BalanceMod/tree/ghoulsbalancemod
 
