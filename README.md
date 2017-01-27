@@ -9,10 +9,6 @@ Current changes:
 - Onos 
     - Boneshield doesn't heal armor anymore and instead grants a mucous shield of 400 hp while being used.
     
-- Lerk
-    - Increased base health of lerk to 150 (from 125)
-    - Decreased biomass bonus to 2 (from 3)
-
 - Silence
     - Silence no longer affects any "attack" sounds
     - Requieres now a Shade Hive (instead of a Shift Hive)
@@ -22,12 +18,6 @@ Current changes:
     
 - Crush
     - Requires now a Shift Hive (instead of a Crag Hive)
-
-- Mucous Cloud
-    - Increased the mucous shield hp to 20% (from 15%) of the traget's hp
-
-- MG
-    - Decreased weight to 0.21 (150% of the GL) from 0.26
     
 - Hive
     - Added a Biomasss 3 reserach tech
