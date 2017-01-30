@@ -15,14 +15,17 @@ Current changes:
     
 - Vampirism 
     - Requires now a Crag Hive (instead of a Shade Hive)
-    
+
+- Alien Regeneration
+    - Alien Regeneration (both the upgrade and the natural one) doesn't restore health in combat anymore.
+
 - Crush
     - Requires now a Shift Hive (instead of a Crag Hive)
     
 - Hive
     - Added a Biomasss 3 reserach tech
         - Costs 60 tres and takes 60 sec to research
-        - It's only avaible at the first hive of the alien team
+        - It's only avalaible at the first hive of the alien team
     - Spore Research
         - Increased biomass requierement to 5 (from 4)
             

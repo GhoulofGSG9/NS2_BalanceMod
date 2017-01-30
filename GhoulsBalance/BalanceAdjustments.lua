@@ -9,3 +9,7 @@ kResearchBioMassThreeCost = 60
 -- Fade Energy
 kStartBlinkEnergyCost = 7
 kBlinkEnergyCost = 49
+
+--Regen doesn't heal in combat anymore
+kAlienRegenerationCombatModifier = 0
+
