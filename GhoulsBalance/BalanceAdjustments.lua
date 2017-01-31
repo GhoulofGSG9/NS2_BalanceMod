@@ -13,3 +13,5 @@ kBlinkEnergyCost = 49
 --Regen doesn't heal in combat anymore
 kAlienRegenerationCombatModifier = 0
 
+--Alien Egg Spawn Rate
+kAlienEggsPerHive = 2

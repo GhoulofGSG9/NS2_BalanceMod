@@ -32,3 +32,7 @@ ModLoader.SetupFileHook( "lua/TechData.lua", "lua/GhoulsBalance/TechData.lua", "
 ModLoader.SetupFileHook( "lua/CloakableMixin.lua", "lua/GhoulsBalance/CloakableMixin.lua", "post" )
 ModLoader.SetupFileHook( "lua/DamageTypes.lua", "lua/GhoulsBalance/DamageTypes.lua", "post" )
 ModLoader.SetupFileHook( "lua/Alien_Server.lua", "lua/GhoulsBalance/Alien_Server.lua", "post" )
+
+--Alien Egg Spawn Rate
+ModLoader.SetupFileHook( "lua/AlienTeam.lua", "lua/GhoulsBalance/AlienTeam_Egg_Spawn.lua", "post" )
+ModLoader.SetupFileHook( "lua/Hive_Server.lua", "lua/GhoulsBalance/Hive_Server.lua", "post" )

@@ -28,6 +28,21 @@ Current changes:
         - It's only avalaible at the first hive of the alien team
     - Spore Research
         - Increased biomass requierement to 5 (from 4)
+        
+- Alien Egg Spawn
+    - Every hive spawns an egg every 13¹ secs instead of only the hive at each time.
+        - ¹ Scales down with the team's playercount:
+            - 6 players: 13
+            - 9 players: 8.6
+            - 10 players: 9.75
+            - 12 players: 7.5
+    - Every hive can spawn up to 2² eggs (was 3²).
+    - The hive's egg hatch tech spawns 2² eggs (was 2)
+        - ² Scales up with the team's playercount:
+            - 6 players: 2
+            - 9 players: 3
+            - 10 players: 3
+            - 12 players: 4
             
 - Fade
     - Blink
