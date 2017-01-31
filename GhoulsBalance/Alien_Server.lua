@@ -8,3 +8,6 @@ function Alien:UpdateSilenceLevel()
 
 end
 
+function Alien:GetIsHealableOverride()
+	return self:GetIsAlive() and self:AmountDamaged() > 0
+end
