@@ -43,12 +43,6 @@ Current changes:
             - 9 players: 3
             - 10 players: 3
             - 12 players: 4
-            
-- Fade
-    - Blink
-        - Lowered activation energy costs to 7 (from 14)
-        - Increased usage energy costs to 46/sec (from 35/sec)
-        - This change makes using blink shortly (<0.6 secs) cheaper and allows to use it similair to the old shadow step.
         
 - Drifter 
     - Added passive abilities for each hive type:
