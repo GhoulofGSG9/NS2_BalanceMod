@@ -36,3 +36,11 @@ ModLoader.SetupFileHook( "lua/Alien_Server.lua", "lua/GhoulsBalance/Alien_Server
 --Alien Egg Spawn Rate
 ModLoader.SetupFileHook( "lua/AlienTeam.lua", "lua/GhoulsBalance/AlienTeam_Egg_Spawn.lua", "post" )
 ModLoader.SetupFileHook( "lua/Hive_Server.lua", "lua/GhoulsBalance/Hive_Server.lua", "post" )
+
+--MG
+ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/MG/Balance.lua", "post" )
+ModLoader.SetupFileHook( "lua/DamageTypes.lua", "lua/GhoulsBalance/MG/DamageTypes.lua", "post" )
+ModLoader.SetupFileHook( "lua/Armory_Server.lua", "lua/GhoulsBalance/MG/Armory_Server.lua", "post" )
+ModLoader.SetupFileHook( "lua/Armory.lua", "lua/GhoulsBalance/MG/Armory.lua", "post" )
+
+
