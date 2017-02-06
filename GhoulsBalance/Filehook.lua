@@ -43,6 +43,8 @@ ModLoader.SetupFileHook( "lua/DamageTypes.lua", "lua/GhoulsBalance/MG/DamageType
 ModLoader.SetupFileHook( "lua/Armory_Server.lua", "lua/GhoulsBalance/MG/Armory_Server.lua", "post" )
 ModLoader.SetupFileHook( "lua/Armory.lua", "lua/GhoulsBalance/MG/Armory.lua", "post" )
 
-
 --Contamination
 ModLoader.SetupFileHook( "lua/CommAbilities/Alien/Contamination.lua", "lua/GhoulsBalance/Contamination/Contamination.lua", "post" )
+
+--Cyst
+ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/Cyst/Balance.lua", "post" )
