@@ -56,6 +56,8 @@ Current changes:
     - Decreased costs to 20 pres.
     - The MG tech now unlocks with the Advanced Amory.
 
+- Contamination
+    - Disables bile bombs when the Contamination is set on fire.
 
 Code @ Github: https://github.com/GhoulofGSG9/NS2_BalanceMod/tree/ghoulsbalancemod
 
