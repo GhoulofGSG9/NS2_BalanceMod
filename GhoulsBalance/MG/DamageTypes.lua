@@ -12,15 +12,15 @@ local function MultiplyForPlayers(target, attacker, doer, damage, armorFractionU
 end
 
 local oldGetDamageByType = GetDamageByType
-function GetDamageByType(...)
-	local a, b, c, d = oldGetDamageByType(...) -- inits kDamageTypeRules
+function GetDamageByType(target, attacker, doer, damage, damageType, hitPoint, weapon)
 
-	if not kDamageTypeRules[kDamageType.MachineGun] then
+	if not kDamageTypeRules then
+		oldGetDamageByType(attacker, attacker, doer, 0, kDamageType.Normal, false, weapon ) --inits kDamageTypeRules
+
 		kDamageTypeRules[kDamageType.MachineGun] = {
 			MultiplyForPlayers
 		}
-		return oldGetDamageByType(...)
 	end
 
-	return a, b, c, d
+	return oldGetDamageByType(target, attacker, doer, damage, damageType, hitPoint, weapon)
 end
