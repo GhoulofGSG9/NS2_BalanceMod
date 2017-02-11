@@ -78,7 +78,7 @@ function Hive:SpawnEgg(manually)
 	local maxAvailablePoints = #self.eggSpawnPoints
 	for i = 1, maxAvailablePoints do
 
-		local j = i + lastTakenSpawnPoint % maxAvailablePoints
+		local j = (i + lastTakenSpawnPoint) % maxAvailablePoints
 		local position = self.eggSpawnPoints[j]
 
 		-- Need to check if this spawn is valid for an Egg and for a Skulk because
