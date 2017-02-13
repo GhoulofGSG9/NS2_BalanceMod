@@ -59,9 +59,7 @@ Current changes:
     - Disables bile bombs when the Contamination is set on fire.
     
 - Cyst
-    - Decreased max matured hp to 270 (from 450)
-    - Decreased min matured hp to 120 (from 200)
-    - Decreased maturity time to 20 seconds (from 45)
+    - Increase maturity time to 120 seconds (from 45)
 
 
 Code @ Github: https://github.com/GhoulofGSG9/NS2_BalanceMod/tree/ghoulsbalancemod
