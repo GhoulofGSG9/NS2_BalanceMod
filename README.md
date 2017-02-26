@@ -64,6 +64,9 @@ Current changes:
 - Exo
     - Decreased the pres costs of exos to 40 (from 45)
 
+- Alien Structures
+    -  Increased the alien structures autogrowth to 50% (form 33%) of their normal (with drifter) growth rate
+
 
 Code @ Github: https://github.com/GhoulofGSG9/NS2_BalanceMod/tree/ghoulsbalancemod
 
