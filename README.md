@@ -67,6 +67,8 @@ Current changes:
 - Alien Structures
     -  Increased the alien structures autogrowth to 50% (form 33%) of their normal (with drifter) growth rate
 
+- Harvester
+    - Decreased growth time to 28 secs (from 38 secs)
 
 Code @ Github: https://github.com/GhoulofGSG9/NS2_BalanceMod/tree/ghoulsbalancemod
 

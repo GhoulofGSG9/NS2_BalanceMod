@@ -1,0 +1,1 @@
+kHarvesterBuildTime = 28
