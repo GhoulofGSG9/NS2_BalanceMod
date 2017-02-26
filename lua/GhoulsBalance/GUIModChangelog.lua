@@ -2,7 +2,7 @@ class 'GUIModChangelog' (Window)
 
 local kTextureName = "*changelog_webpage_render"
 GUIModChangelog.URL = "https://ghoulofgsg9.github.io/Ghouls-Balance-Mod/"
-GUIModChangelog.titleText = string.format("Ghouls Balance Mod (%s)", GBM_version)
+GUIModChangelog.titleText = "Ghouls Balance Mod"
 
 function GUIModChangelog:Initialize()
 	Window.Initialize(self)
