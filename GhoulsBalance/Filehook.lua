@@ -40,11 +40,18 @@ ModLoader.SetupFileHook( "lua/Hive_Server.lua", "lua/GhoulsBalance/Hive_Server.l
 --MG
 ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/MG/Balance.lua", "post" )
 ModLoader.SetupFileHook( "lua/DamageTypes.lua", "lua/GhoulsBalance/MG/DamageTypes.lua", "post" )
-ModLoader.SetupFileHook( "lua/Armory_Server.lua", "lua/GhoulsBalance/MG/Armory_Server.lua", "post" )
-ModLoader.SetupFileHook( "lua/Armory.lua", "lua/GhoulsBalance/MG/Armory.lua", "post" )
 
 --Contamination
 ModLoader.SetupFileHook( "lua/CommAbilities/Alien/Contamination.lua", "lua/GhoulsBalance/Contamination/Contamination.lua", "post" )
 
 --Cyst
 ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/Cyst/Balance.lua", "post" )
+
+--Exo
+ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/Exo/Balance.lua", "post" )
+
+--Alien Autobuild
+ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/Autobuild/Balance.lua", "post" )
+
+--Harvester build time
+ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/Harvester/Balance.lua", "post" )
