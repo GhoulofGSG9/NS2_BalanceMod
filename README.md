@@ -60,6 +60,9 @@ Current changes:
     
 - Cyst
     - Increase maturity time to 120 seconds (from 45)
+    
+- Exo
+    - Decreased the pres costs of exos to 40 (from 45)
 
 
 Code @ Github: https://github.com/GhoulofGSG9/NS2_BalanceMod/tree/ghoulsbalancemod
