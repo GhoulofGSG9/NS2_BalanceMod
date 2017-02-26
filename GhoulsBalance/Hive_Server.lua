@@ -87,7 +87,7 @@ function Hive:SpawnEgg(manually)
 
 		-- Need to check if this spawn is valid for an Egg and for a Skulk because
 		-- the Skulk spawns from the Egg.
-		local validForEgg = GetCanEggFit(position)
+		local validForEgg = position and GetCanEggFit(position)
 
 		if validForEgg then
 
