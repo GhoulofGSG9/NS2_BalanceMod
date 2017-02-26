@@ -70,6 +70,6 @@ Current changes:
 - Harvester
     - Decreased growth time to 28 secs (from 38 secs)
 
-Code @ Github: https://github.com/GhoulofGSG9/NS2_BalanceMod/tree/ghoulsbalancemod
+Code @ Github: https://github.com/GhoulofGSG9/Ghouls-Balance-Mod
 
 Feel free to leave feedback ;)
