@@ -11,7 +11,7 @@ local function showchangelog()
 end
 
 local function onLoadComplete()
-	local oldversion = 0 --Client.GetOptionInteger("balancemod_version", 0)
+	local oldversion = Client.GetOptionInteger("balancemod_version", 0)
 	if GBM_version > oldversion then
 		Client.SetOptionInteger("balancemod_version", GBM_version)
 		showchangelog()

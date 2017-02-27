@@ -13,8 +13,16 @@ Current changes:
     - Silence no longer affects any "attack" sounds
     - Requieres now a Shade Hive (instead of a Shift Hive)
     
-- Vampirism 
+- Vampirism
     - Requires now a Crag Hive (instead of a Shade Hive)
+    - Doesn't cloak anymore
+    - Rebalanced health gain values (for each shell):
+        - Skulk: 5 (from 5)
+        - Gorge: 6 (from 5)
+        - Lerk (Bite): 5 (from 3)
+        - Lerk (Spike): 2 (from 0.66)
+        - Fade: 12 (from 6.66)
+        - Onos: 20 (from  13.33)
 
 - Alien Regeneration
     - Alien Regeneration (both the upgrade and the natural one) doesn't restore health in combat anymore.

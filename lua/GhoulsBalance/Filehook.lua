@@ -26,12 +26,16 @@ ModLoader.SetupFileHook( "lua/AlienTechMap.lua", "lua/GhoulsBalance/AlienTechMap
 ModLoader.SetupFileHook( "lua/TechTree_Server.lua", "lua/GhoulsBalance/TechTree_Server_Upgrades.lua", "post" )
 ModLoader.SetupFileHook( "lua/AlienTeam.lua", "lua/GhoulsBalance/AlienTeam_Upgrades.lua", "post" )
 ModLoader.SetupFileHook( "lua/AlienTechMap.lua", "lua/GhoulsBalance/AlienTechMap_Upgrades.lua", "post" )
+
 --ModLoader.SetupFileHook( "lua/GUIUtility.lua", "lua/GhoulsBalance/GUIUtility.lua", "post" )
 ModLoader.SetupFileHook( "lua/GUIUpgradeChamberDisplay.lua", "lua/GhoulsBalance/GUIUpgradeChamberDisplay.lua", "post" )
 ModLoader.SetupFileHook( "lua/TechData.lua", "lua/GhoulsBalance/TechData.lua", "post" )
-ModLoader.SetupFileHook( "lua/CloakableMixin.lua", "lua/GhoulsBalance/CloakableMixin.lua", "post" )
 ModLoader.SetupFileHook( "lua/DamageTypes.lua", "lua/GhoulsBalance/DamageTypes.lua", "post" )
 ModLoader.SetupFileHook( "lua/Alien_Server.lua", "lua/GhoulsBalance/Alien_Server.lua", "post" )
+
+--Vampirism changes
+ModLoader.SetupFileHook( "lua/Alien.lua", "lua/GhoulsBalance/Vampirism/Alien.lua", "post" )
+ModLoader.SetupFileHook( "lua/DamageTypes.lua", "lua/GhoulsBalance/Vampirism/DamageTypes.lua", "post" )
 
 --Alien Egg Spawn Rate
 ModLoader.SetupFileHook( "lua/AlienTeam.lua", "lua/GhoulsBalance/AlienTeam_Egg_Spawn.lua", "post" )
