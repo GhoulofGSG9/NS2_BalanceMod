@@ -16,7 +16,6 @@ ModLoader.SetupFileHook( "lua/AlienTeam.lua", "lua/GhoulsBalance/BiomassThree/Al
 ModLoader.SetupFileHook( "lua/TeamInfo.lua", "lua/GhoulsBalance/BiomassThree/TeamInfo.lua", "post" )
 ModLoader.SetupFileHook( "lua/TechTree_Server.lua", "lua/GhoulsBalance/BiomassThree/TechTree_Server.lua", "post" )
 ModLoader.SetupFileHook( "lua/AlienTechMap.lua", "lua/GhoulsBalance/BiomassThree/AlienTechMap.lua", "post" )
-ModLoader.SetupFileHook( "lua/Hive.lua", "lua/GhoulsBalance/BiomassThree/Hive.lua", "post" )
 ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/BiomassThree/Balance.lua", "post" )
 
 --drifter techs
