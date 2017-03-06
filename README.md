@@ -38,7 +38,7 @@ Current changes:
         - Increased biomass requierement to 5 (from 4)
         
 - Alien Egg Spawn
-    - Every hive spawns an egg every 13¹ secs instead of only the hive at each time.
+    - Every hive spawns an egg every 13¹ secs instead of only at one hive each time.
         - ¹ Scales down with the team's playercount:
             - 6 players: 13
             - 9 players: 8.6
