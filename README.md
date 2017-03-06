@@ -30,6 +30,9 @@ Current changes:
 - Crush
     - Requires now a Shift Hive (instead of a Crag Hive)
     
+- Focus
+    - The extra cooldown is not changing with the veil level anymore and instead static 33%.
+    
 - Hive
     - Added a Biomasss 3 reserach tech
         - Costs 60 tres and takes 60 sec to research

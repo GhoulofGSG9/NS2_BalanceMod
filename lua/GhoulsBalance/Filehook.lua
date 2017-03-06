@@ -64,3 +64,6 @@ ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/Harvester/Balance
 
 --Regeneration
 ModLoader.SetupFileHook( "lua/Alien_Server.lua", "lua/GhoulsBalance/Regeneration/Alien_Server.lua", "post" )
+
+--Focus
+ModLoader.SetupFileHook( "lua/Ability.lua", "lua/GhoulsBalance/Focus/Ability.lua", "post" )
