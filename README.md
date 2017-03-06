@@ -25,10 +25,13 @@ Current changes:
         - Onos: 20 (from  13.33)
 
 - Alien Regeneration
-    - Alien Regeneration (both the upgrade and the natural one) doesn't restore health in combat anymore.
+    - Alien Regeneration (both the upgrade and the natural one) doesn't restore health if you have been hurt less than 3 seconds ago.
 
 - Crush
     - Requires now a Shift Hive (instead of a Crag Hive)
+    
+- Focus
+    - The extra cooldown is not changing with the veil level anymore and instead static 33%.
     
 - Hive
     - Added a Biomasss 3 reserach tech
@@ -38,7 +41,7 @@ Current changes:
         - Increased biomass requierement to 5 (from 4)
         
 - Alien Egg Spawn
-    - Every hive spawns an egg every 13¹ secs instead of only the hive at each time.
+    - Every hive spawns an egg every 13¹ secs instead of only at one hive each time.
         - ¹ Scales down with the team's playercount:
             - 6 players: 13
             - 9 players: 8.6

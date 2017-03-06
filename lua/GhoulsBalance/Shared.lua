@@ -1,12 +1,10 @@
 --Check for diabling global
 if gDisableUWEBalance then return end
 
--- Biomass 3 research & Drifter tech
-Script.Load("lua/GhoulsBalance/Hive.lua")
+-- Biomass 3 research
+Script.Load("lua/GhoulsBalance/BiomassThree/Hive.lua")
 
 if AddModPanel then
 	local panel = PrecacheAsset("materials/ghoulsbalancemod/panel.material")
 	AddModPanel(panel, "https://ghoulofgsg9.github.io/Ghouls-Balance-Mod/")
-elseif Client then
-	Script.Load("lua/GhoulsBalance/changelog.lua")
 end
