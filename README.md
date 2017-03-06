@@ -25,7 +25,7 @@ Current changes:
         - Onos: 20 (from  13.33)
 
 - Alien Regeneration
-    - Alien Regeneration (both the upgrade and the natural one) doesn't restore health in combat anymore.
+    - Alien Regeneration (both the upgrade and the natural one) doesn't restore health if you have been hurt less than 3 seconds ago.
 
 - Crush
     - Requires now a Shift Hive (instead of a Crag Hive)
