@@ -23,6 +23,7 @@ Current changes:
         - Lerk (Spike): 2 (from 0.66)
         - Fade: 12 (from 6.66)
         - Onos: 20 (from  13.33)
+    - If Focus is selected Vampirism will heal additional 33% to compensate for the longer attack cooldowns.
 
 - Alien Regeneration
     - Alien Regeneration (both the upgrade and the natural one) doesn't restore health if you have been hurt less than 3 seconds ago.
