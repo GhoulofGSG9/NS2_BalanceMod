@@ -41,6 +41,8 @@ Current changes:
         - Focus
             - The extra cooldown is not changing with the veil level anymore and instead static 33%.
     - Lifeforms
+        - Lifeform Abilities
+            - Abilities are not longer available as soon as the biomass level drops below the requierements. Previously abilities kept being unlocked as long as the player stayed alive.
         - Onos 
             - Boneshield doesn't heal armor anymore and instead grants a mucous shield of 400 hp while being used.
     - PvE
