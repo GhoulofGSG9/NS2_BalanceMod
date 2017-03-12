@@ -45,6 +45,9 @@ Current changes:
             - Abilities are not longer available as soon as the biomass level drops below the requierements. Previously abilities kept being unlocked as long as the player stayed alive.
         - Onos 
             - Boneshield doesn't heal armor anymore and instead grants a mucous shield of 400 hp while being used.
+        - Gorge
+            - Bilebomb
+                Decreased the tickrate of the bile damge to 2/sec (from 2.5/sec) and lowered the damge that way to 110/sec (from 137.5/sec)
     - PvE
         - Alien Structures
             -  Increased the alien structures autogrowth to 50% (form 33%) of their normal (with drifter) growth rate

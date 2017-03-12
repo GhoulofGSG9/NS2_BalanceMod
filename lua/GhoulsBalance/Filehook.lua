@@ -69,3 +69,6 @@ ModLoader.SetupFileHook( "lua/Ability.lua", "lua/GhoulsBalance/Focus/Ability.lua
 
 --Aliens loose their ability directly when a hive gets destroyed
 ModLoader.SetupFileHook( "lua/NS2Utility_Server.lua", "lua/GhoulsBalance/AlienAbilityLock/NS2Utility_Server.lua", "post")
+
+--Gorge Bile
+ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/GorgeBile/Balance.lua", "post" )
