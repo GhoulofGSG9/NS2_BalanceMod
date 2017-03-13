@@ -46,11 +46,20 @@ Current changes:
         - Onos 
             - Boneshield doesn't heal armor anymore and instead grants a mucous shield of 400 hp while being used.
         - Gorge
+            - Movement / Belly Slide
+                - Give players more control over belly slide and make it slightly faster:
+                    - Increased max belly sliding speed to 14, from 13.
+                    - Decreased belly slide cooldown from 1.5 to 1 second.
+                    - Reduced slide friction on infestation from 0.068 to 0.039.
+                    - Reduced slide energy cost from 25 to 20.
+                    - Increased belly slide control from 10 to 18.                
+                    - Speed loss sliding uphill is reduced by 25%.
+                - Decreased the air friction from 0.8 to 0.2 so the Gorge doesn't move like a brick while jumping.
             - Bilebomb
-                Decreased the tickrate of the bile damge to 2/sec (from 2.5/sec) and lowered the damge that way to 110/sec (from 137.5/sec)
+                - Decreased the tickrate of the bile damge to 2/sec (from 2.5/sec) and lowered the damge that way to 110/sec (from 137.5/sec)
     - PvE
         - Alien Structures
-            -  Increased the alien structures autogrowth to 50% (form 33%) of their normal (with drifter) growth rate
+            -  Increased the alien structures autogrowth to 50% (form 33%) of their normal (with drifter) growth rate.
         
         - Hive
             - Added a Biomasss 3 reserach tech

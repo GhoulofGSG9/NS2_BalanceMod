@@ -72,3 +72,6 @@ ModLoader.SetupFileHook( "lua/NS2Utility_Server.lua", "lua/GhoulsBalance/AlienAb
 
 --Gorge Bile
 ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/GorgeBile/Balance.lua", "post" )
+
+--Improved Gorge Movement
+ModLoader.SetupFileHook( "lua/Gorge.lua", "lua/GhoulsBalance/GorgeMovement/Gorge.lua", "post" )
