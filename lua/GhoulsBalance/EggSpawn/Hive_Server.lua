@@ -31,7 +31,6 @@ function Hive:HatchEggs()
 	return false
 end
 
---Todo: This should be tracked via Egg.SetHive
 function Hive:GetNumEggs()
 
 	local numEggs = 0
