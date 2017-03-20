@@ -13,6 +13,11 @@ Current changes:
         - Increased base damage to 8 from 6. 
         - Decreased damage bonus against players to 150% from 200%
         - Decreased costs to 20 pres.
+    - Shotgun
+        - Changed damage type to Light damage (from Normal damage):
+            - Damage against armor is reduced to 25% (was 50% with Normal damage).
+        - Increased base damage to 12 per pellet (from 10, the Shotgun fires 17 pellets).
+        - Incresed the Shotgun research time to 60 seconds (from 30).
 
 - Aliens
     - Upgrades
