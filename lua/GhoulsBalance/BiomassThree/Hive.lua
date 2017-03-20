@@ -25,7 +25,7 @@ function Hive:GetTechAllowed(techId, techNode, player)
 	local allowed, canAfford = oldGetTechAllowed(self, techId, techNode, player)
 
 	if techId == kTechId.ResearchBioMassThree then
-		allowed = allowed and self:GetIsMotherHive() and self.bioMassLevel == 3
+		allowed = allowed and self.bioMassLevel == 3
 	end
 
 	return allowed, canAfford
@@ -35,7 +35,7 @@ local oldGetTechButtons = Hive.GetTechButtons
 function Hive:GetTechButtons()
 	local techButtons = oldGetTechButtons(self)
 
-	if self.bioMassLevel == 3 and self:GetIsMotherHive() then
+	if self.bioMassLevel == 3 then
 		techButtons[2] = kTechId.ResearchBioMassThree
 	end
 

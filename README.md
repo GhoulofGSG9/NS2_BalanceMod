@@ -13,6 +13,11 @@ Current changes:
         - Increased base damage to 8 from 6. 
         - Decreased damage bonus against players to 150% from 200%
         - Decreased costs to 20 pres.
+    - Shotgun
+        - Changed damage type to Light damage (from Normal damage):
+            - Damage against armor is reduced to 25% (was 50% with Normal damage).
+        - Increased base damage to 12 per pellet (from 10, the Shotgun fires 17 pellets).
+        - Incresed the Shotgun research time to 60 seconds (from 30).
 
 - Aliens
     - Upgrades
@@ -45,6 +50,8 @@ Current changes:
             - Abilities are not longer available as soon as the biomass level drops below the requierements. Previously abilities kept being unlocked as long as the player stayed alive.
         - Onos 
             - Boneshield doesn't heal armor anymore and instead grants a mucous shield of 400 hp while being used.
+        - Fade
+            - Pres cost increased to 37 (from 35)
         - Gorge
             - Movement / Belly Slide
                 - Give players more control over belly slide and make it slightly faster:
@@ -56,17 +63,14 @@ Current changes:
                     - Speed loss sliding uphill is reduced by 25%.
                 - Decreased the air friction from 0.8 to 0.2 so the Gorge doesn't move like a brick while jumping.
             - Bilebomb
-                - Decreased the tickrate of the bile damge to 2/sec (from 2.5/sec) and lowered the damge that way to 110/sec (from 137.5/sec)
+                - Decreased the tickrate of the bile damage to 2/sec (from 2.5/sec) and lowered the damage that way to 110/sec (from 137.5/sec)
     - PvE
         - Alien Structures
             -  Increased the alien structures autogrowth to 50% (form 33%) of their normal (with drifter) growth rate.
         
         - Hive
-            - Added a Biomasss 3 reserach tech
+            - Added a Biomasss 3 research tech
                 - Costs 60 tres and takes 60 sec to research
-                - It's only avalaible at the first hive of the alien team
-            - Spore Research
-                - Increased biomass requierement to 5 (from 4)
             - Alien Egg Spawn
                 - Every hive spawns an egg every 13¹ secs instead of only at one hive each time.
                     - ¹ Scales down with the team's playercount:

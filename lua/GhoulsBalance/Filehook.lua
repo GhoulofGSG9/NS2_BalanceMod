@@ -14,8 +14,8 @@ ModLoader.SetupFileHook( "lua/Weapons/Alien/Metabolize.lua", "lua/GhoulsBalance/
 -- Biomass 3 research
 ModLoader.SetupFileHook( "lua/AlienTeam.lua", "lua/GhoulsBalance/BiomassThree/AlienTeam.lua", "post" )
 ModLoader.SetupFileHook( "lua/TeamInfo.lua", "lua/GhoulsBalance/BiomassThree/TeamInfo.lua", "post" )
-ModLoader.SetupFileHook( "lua/TechTree_Server.lua", "lua/GhoulsBalance/BiomassThree/TechTree_Server.lua", "post" )
-ModLoader.SetupFileHook( "lua/AlienTechMap.lua", "lua/GhoulsBalance/BiomassThree/AlienTechMap.lua", "post" )
+--ModLoader.SetupFileHook( "lua/TechTree_Server.lua", "lua/GhoulsBalance/BiomassThree/TechTree_Server.lua", "post" )
+--ModLoader.SetupFileHook( "lua/AlienTechMap.lua", "lua/GhoulsBalance/BiomassThree/AlienTechMap.lua", "post" )
 ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/BiomassThree/Balance.lua", "post" )
 
 --drifter techs
@@ -75,3 +75,9 @@ ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/GorgeBile/Balance
 
 --Improved Gorge Movement
 ModLoader.SetupFileHook( "lua/Gorge.lua", "lua/GhoulsBalance/GorgeMovement/Gorge.lua", "post" )
+
+--Shotgun Light Damage
+ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/ShotgunLight/Balance.lua", "post" )
+
+--Fade Init Timing fix
+ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/FadePRes/Balance.lua", "post" )
