@@ -56,7 +56,7 @@ Current changes:
                     - Speed loss sliding uphill is reduced by 25%.
                 - Decreased the air friction from 0.8 to 0.2 so the Gorge doesn't move like a brick while jumping.
             - Bilebomb
-                - Decreased the tickrate of the bile damge to 2/sec (from 2.5/sec) and lowered the damge that way to 110/sec (from 137.5/sec)
+                - Decreased the tickrate of the bile damage to 2/sec (from 2.5/sec) and lowered the damage that way to 110/sec (from 137.5/sec)
     - PvE
         - Alien Structures
             -  Increased the alien structures autogrowth to 50% (form 33%) of their normal (with drifter) growth rate.
