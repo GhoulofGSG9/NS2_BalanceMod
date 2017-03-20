@@ -62,11 +62,8 @@ Current changes:
             -  Increased the alien structures autogrowth to 50% (form 33%) of their normal (with drifter) growth rate.
         
         - Hive
-            - Added a Biomasss 3 reserach tech
+            - Added a Biomasss 3 research tech
                 - Costs 60 tres and takes 60 sec to research
-                - It's only avalaible at the first hive of the alien team
-            - Spore Research
-                - Increased biomass requierement to 5 (from 4)
             - Alien Egg Spawn
                 - Every hive spawns an egg every 13¹ secs instead of only at one hive each time.
                     - ¹ Scales down with the team's playercount:
