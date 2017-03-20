@@ -50,6 +50,8 @@ Current changes:
             - Abilities are not longer available as soon as the biomass level drops below the requierements. Previously abilities kept being unlocked as long as the player stayed alive.
         - Onos 
             - Boneshield doesn't heal armor anymore and instead grants a mucous shield of 400 hp while being used.
+        - Fade
+            - Pres cost increased to 37 (from 35)
         - Gorge
             - Movement / Belly Slide
                 - Give players more control over belly slide and make it slightly faster:
