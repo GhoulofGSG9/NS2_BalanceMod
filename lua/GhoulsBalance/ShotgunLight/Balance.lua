@@ -1,3 +1,3 @@
-kShotgunDamage = 12
-kShotgunDamageType = kDamageType.Light
+kShotgunCost = 25
+kShotgunDropCost = 25
 kShotgunTechResearchTime = 60
