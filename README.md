@@ -7,8 +7,6 @@ This mod contains various prototype balance changes based on various ideas of th
 Current changes:
 
 - Marines
-    - Exo
-        - Decreased the pres costs of exos to 40 (from 45)
     - MG
         - Increased base damage to 8 from 6. 
         - Decreased damage bonus against players to 150% from 200%
@@ -38,18 +36,21 @@ Current changes:
         - Alien Regeneration
             - Alien Regeneration (both the upgrade and the natural one) doesn't restore health if you have been hurt less than 3 seconds ago.
         
+        - Regeneration 
+            - Increased amount of hp regen restores every 2 secs to 4% (from 2%) of the base hp for each shell.
+            
         - Crush
             - Requires now a Shift Hive (instead of a Crag Hive)
             
         - Focus
             - The extra cooldown is not changing with the veil level anymore and instead static 33%.
     - Lifeforms
-        - Lifeform Abilities
-            - Abilities are not longer available as soon as the biomass level drops below the requierements. Previously abilities kept being unlocked as long as the player stayed alive.
         - Onos 
             - Boneshield doesn't heal armor anymore and instead grants a mucous shield of 400 hp while being used.
+            
         - Fade
             - Pres cost increased to 37 (from 35)
+            
         - Gorge
             - Movement / Belly Slide
                 - Give players more control over belly slide and make it slightly faster:
@@ -64,8 +65,7 @@ Current changes:
                 - Decreased the tickrate of the bile damage to 2/sec (from 2.5/sec) and lowered the damage that way to 110/sec (from 137.5/sec)
     - PvE
         - Alien Structures
-            -  Increased the alien structures autogrowth to 50% (form 33%) of their normal (with drifter) growth rate.
-        
+            -  Increased the alien structures autogrowth to 50% (form 33%) of their normal (with drifter) growth rate.        
         - Hive
             - Added a Biomasss 3 research tech
                 - Costs 60 tres and takes 60 sec to research
@@ -83,16 +83,18 @@ Current changes:
                         - 9 players: 3
                         - 10 players: 3
                         - 12 players: 4
+                        
         - Harvester
             - Decreased growth time to 28 secs (from 38 secs)
         - Cyst
-            - Increase maturity time to 120 seconds (from 45)            
-        
+            - Increase maturity time to 120 seconds (from 45)
+            
         - Drifter 
             - Added passive abilities for each hive type:
                 - Camouflage (Shade Hive): Drifters turn invisble when they idle.
                 - Regeneration (Crag Hive): Drifter regenerate 3% of their hp every 2 secs while being hurt.
-                - Celerity (Shift Hive): Drifters move 18% faster.                
+                - Celerity (Shift Hive): Drifters move 18% faster.
+                          
         - Contamination
             - Disables bile bombs when the Contamination is set on fire.
 

@@ -52,9 +52,6 @@ ModLoader.SetupFileHook( "lua/CommAbilities/Alien/Contamination.lua", "lua/Ghoul
 --Cyst
 ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/Cyst/Balance.lua", "post" )
 
---Exo
-ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/Exo/Balance.lua", "post" )
-
 --Alien Autobuild
 ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/Autobuild/Balance.lua", "post" )
 
@@ -63,12 +60,10 @@ ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/Harvester/Balance
 
 --Regeneration
 ModLoader.SetupFileHook( "lua/Alien_Server.lua", "lua/GhoulsBalance/Regeneration/Alien_Server.lua", "post" )
+ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/Regeneration/Balance.lua", "post" )
 
 --Focus
 ModLoader.SetupFileHook( "lua/Ability.lua", "lua/GhoulsBalance/Focus/Ability.lua", "post" )
-
---Aliens loose their ability directly when a hive gets destroyed
-ModLoader.SetupFileHook( "lua/NS2Utility_Server.lua", "lua/GhoulsBalance/AlienAbilityLock/NS2Utility_Server.lua", "post")
 
 --Gorge Bile
 ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/GorgeBile/Balance.lua", "post" )
