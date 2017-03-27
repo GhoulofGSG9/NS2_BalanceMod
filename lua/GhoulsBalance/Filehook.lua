@@ -52,9 +52,6 @@ ModLoader.SetupFileHook( "lua/CommAbilities/Alien/Contamination.lua", "lua/Ghoul
 --Cyst
 ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/Cyst/Balance.lua", "post" )
 
---Exo
-ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/Exo/Balance.lua", "post" )
-
 --Alien Autobuild
 ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/Autobuild/Balance.lua", "post" )
 
