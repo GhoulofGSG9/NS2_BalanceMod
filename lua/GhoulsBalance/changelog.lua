@@ -1,4 +1,4 @@
-GBM_version = 201703201 --year month date versionofdate
+GBM_version = 201703271 --year month date versionofdate
 
 Script.Load("lua/GhoulsBalance/GUIModChangelog.lua")
 
