@@ -18,7 +18,7 @@ function Alien:UpdateAutoHeal()
 			healRate = Clamp(kAlienInnateRegenerationPercentage * maxHealth, kAlienMinInnateRegeneration, kAlienMaxInnateRegeneration)
 		end
 
-		if self:GetTimeLastDamageDealt() + kAlienRegenerationTime + 1 > Shared.GetTime() then
+		if self:GetTimeLastDamageTaken() + kAlienRegenerationTime + 1 > Shared.GetTime() then
 			healRate = healRate * kAlienRegenerationCombatModifier
 		end
 
@@ -28,4 +28,3 @@ function Alien:UpdateAutoHeal()
 	end
 
 end
-
