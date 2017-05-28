@@ -17,17 +17,20 @@ local kUpgrades = {
 }
 
 function Egg:PickUpgrades(newPlayer)
-	local lastUpgradeList = newPlayer.lastUpgradeList
+	local lastUpgradeList = newPlayer.lastUpgradeList or {}
+	local teamNumber = self:GetTeamNumber()
 
 	local picked = {}
 	for i = 1, #lastUpgradeList do
 		local techId = lastUpgradeList[i]
 		for j = 1, #kUpgrades do
 			if kUpgrades[j] == techId then
-				local s = j - ( j % 4 )
+				local s = j - ( j % 4 ) + 1
 				picked[kUpgrades[s]] = true
 
-				newPlayer:GiveUpgrade(techId)
+				if GetIsTechUseable(techId, teamNumber) then
+					newPlayer:GiveUpgrade(techId)
+				end
 
 				break
 			end
@@ -37,7 +40,9 @@ function Egg:PickUpgrades(newPlayer)
 	for j = 1, #kUpgrades, 4 do
 		if not picked[kUpgrades[j]] then
 			local upgrade = kUpgrades[ j + math.random(1,3)]
-			newPlayer:GiveUpgrade(upgrade)
+			if GetIsTechUseable(upgrade, teamNumber) then
+				newPlayer:GiveUpgrade(upgrade)
+			end
 		end
 	end
 end
