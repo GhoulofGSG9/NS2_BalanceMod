@@ -1,3 +1,4 @@
-kShotgunCost = 25
-kShotgunDropCost = 25
 kShotgunTechResearchTime = 60
+
+kShotgunBulletsPerShot = 13
+kShotgunDamage = 12

@@ -62,7 +62,7 @@ ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/GorgeBile/Balance
 --Improved Gorge Movement
 ModLoader.SetupFileHook( "lua/Gorge.lua", "lua/GhoulsBalance/GorgeMovement/Gorge.lua", "post" )
 
---Shotgun Light Damage
+--Shotgun Light Damage (Reduced pallets and longer research)
 ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/ShotgunLight/Balance.lua", "post" )
 
 --Fade Init Timing fix

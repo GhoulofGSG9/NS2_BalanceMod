@@ -8,8 +8,10 @@ Current changes:
 
 - Marines
     - Shotgun
-        - Increased pres costs to 25 (from 20)
         - Increased the Shotgun research time to 60 seconds (from 30).
+        - Reduced the amount of pellets the shotgun fires with each shot to 13 (from 17)
+        - Increased the base damage of each pellet to 12 ( from 10)
+            - These changes lower the possible total base damage of the shotgun to 156/shot (from 170/shot)
 
 - Aliens
     - Upgrades
