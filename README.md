@@ -7,10 +7,6 @@ This mod contains various prototype balance changes based on various ideas of th
 Current changes:
 
 - Marines
-    - MG
-        - Increased base damage to 8 from 6. 
-        - Decreased damage bonus against players to 150% from 200%
-        - Decreased costs to 20 pres.
     - Shotgun
         - Increased pres costs to 25 (from 20)
         - Increased the Shotgun research time to 60 seconds (from 30).
@@ -68,22 +64,7 @@ Current changes:
             -  Increased the alien structures autogrowth to 50% (form 33%) of their normal (with drifter) growth rate.        
         - Hive
             - Added a Biomasss 3 research tech
-                - Costs 60 tres and takes 60 sec to research
-            - Alien Egg Spawn
-                - Every hive spawns an egg every 13¹ secs instead of only at one hive each time.
-                    - ¹ Scales down with the team's playercount:
-                        - 6 players: 13
-                        - 9 players: 8.6
-                        - 10 players: 9.75
-                        - 12 players: 7.5
-                - Every hive can spawn up to 2² eggs (was 3²).
-                - The hive's egg hatch tech spawns 2² eggs (was 2)
-                    - ² Scales up with the team's playercount:
-                        - 6 players: 2
-                        - 9 players: 3
-                        - 10 players: 3
-                        - 12 players: 4
-                        
+                - Costs 60 tres and takes 60 sec to research                        
         - Harvester
             - Decreased growth time to 28 secs (from 38 secs)
         - Cyst

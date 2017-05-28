@@ -37,15 +37,6 @@ ModLoader.SetupFileHook( "lua/Alien_Server.lua", "lua/GhoulsBalance/AlienUpgrade
 ModLoader.SetupFileHook( "lua/Alien.lua", "lua/GhoulsBalance/Vampirism/Alien.lua", "post" )
 ModLoader.SetupFileHook( "lua/DamageTypes.lua", "lua/GhoulsBalance/Vampirism/DamageTypes.lua", "post" )
 
---Alien Egg Spawn Rate
-ModLoader.SetupFileHook( "lua/AlienTeam.lua", "lua/GhoulsBalance/EggSpawn/AlienTeam.lua", "post" )
-ModLoader.SetupFileHook( "lua/Hive_Server.lua", "lua/GhoulsBalance/EggSpawn/Hive_Server.lua", "post" )
-ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/EggSpawn/Balance.lua", "post" )
-
---MG
-ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/MG/Balance.lua", "post" )
-ModLoader.SetupFileHook( "lua/DamageTypes.lua", "lua/GhoulsBalance/MG/DamageTypes.lua", "post" )
-
 --Contamination
 ModLoader.SetupFileHook( "lua/CommAbilities/Alien/Contamination.lua", "lua/GhoulsBalance/Contamination/Contamination.lua", "post" )
 
