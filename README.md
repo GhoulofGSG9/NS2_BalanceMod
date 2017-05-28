@@ -7,16 +7,18 @@ This mod contains various prototype balance changes based on various ideas of th
 Current changes:
 
 - Marines
-    - MG
-        - Increased base damage to 8 from 6. 
-        - Decreased damage bonus against players to 150% from 200%
-        - Decreased costs to 20 pres.
     - Shotgun
-        - Increased pres costs to 25 (from 20)
         - Increased the Shotgun research time to 60 seconds (from 30).
+        - Reduced the amount of pellets the shotgun fires with each shot to 13 (from 17)
+        - Increased the base damage of each pellet to 12 ( from 10)
+            - These changes lower the possible total base damage of the shotgun to 156/shot (from 170/shot)
 
 - Aliens
     - Upgrades
+        - Autoselect upgrades at spawn
+            - At spawn previously selected upgrades will be reapplied if they are still available.
+            - In case the player hasn't selected an upgrade for an available trait yet a random one will be applied at spawn. 
+            
         - Silence
             - Silence no longer affects any "attack" sounds
             - Requieres now a Shade Hive (instead of a Shift Hive)
@@ -45,9 +47,11 @@ Current changes:
         - Focus
             - The extra cooldown is not changing with the veil level anymore and instead static 33%.
     - Lifeforms
-        - Onos 
-            - Boneshield doesn't heal armor anymore and instead grants a mucous shield of 400 hp while being used.
-            
+        - Onos            
+            - Boneshield 
+                - Doesn't heal armor anymore and instead grants a mucous shield of 400 hp while being used.
+            - Reduced the max base speed to 6.4 (from 7.5) and the max base charge speed to 10.5 (from 11.5).
+       
         - Fade
             - Pres cost increased to 37 (from 35)
             
@@ -68,22 +72,7 @@ Current changes:
             -  Increased the alien structures autogrowth to 50% (form 33%) of their normal (with drifter) growth rate.        
         - Hive
             - Added a Biomasss 3 research tech
-                - Costs 60 tres and takes 60 sec to research
-            - Alien Egg Spawn
-                - Every hive spawns an egg every 13¹ secs instead of only at one hive each time.
-                    - ¹ Scales down with the team's playercount:
-                        - 6 players: 13
-                        - 9 players: 8.6
-                        - 10 players: 9.75
-                        - 12 players: 7.5
-                - Every hive can spawn up to 2² eggs (was 3²).
-                - The hive's egg hatch tech spawns 2² eggs (was 2)
-                    - ² Scales up with the team's playercount:
-                        - 6 players: 2
-                        - 9 players: 3
-                        - 10 players: 3
-                        - 12 players: 4
-                        
+                - Costs 60 tres and takes 60 sec to research                        
         - Harvester
             - Decreased growth time to 28 secs (from 38 secs)
         - Cyst

@@ -37,15 +37,6 @@ ModLoader.SetupFileHook( "lua/Alien_Server.lua", "lua/GhoulsBalance/AlienUpgrade
 ModLoader.SetupFileHook( "lua/Alien.lua", "lua/GhoulsBalance/Vampirism/Alien.lua", "post" )
 ModLoader.SetupFileHook( "lua/DamageTypes.lua", "lua/GhoulsBalance/Vampirism/DamageTypes.lua", "post" )
 
---Alien Egg Spawn Rate
-ModLoader.SetupFileHook( "lua/AlienTeam.lua", "lua/GhoulsBalance/EggSpawn/AlienTeam.lua", "post" )
-ModLoader.SetupFileHook( "lua/Hive_Server.lua", "lua/GhoulsBalance/EggSpawn/Hive_Server.lua", "post" )
-ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/EggSpawn/Balance.lua", "post" )
-
---MG
-ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/MG/Balance.lua", "post" )
-ModLoader.SetupFileHook( "lua/DamageTypes.lua", "lua/GhoulsBalance/MG/DamageTypes.lua", "post" )
-
 --Contamination
 ModLoader.SetupFileHook( "lua/CommAbilities/Alien/Contamination.lua", "lua/GhoulsBalance/Contamination/Contamination.lua", "post" )
 
@@ -71,8 +62,14 @@ ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/GorgeBile/Balance
 --Improved Gorge Movement
 ModLoader.SetupFileHook( "lua/Gorge.lua", "lua/GhoulsBalance/GorgeMovement/Gorge.lua", "post" )
 
---Shotgun Light Damage
+--Shotgun Light Damage (Reduced pallets and longer research)
 ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/ShotgunLight/Balance.lua", "post" )
+
+--Onos Speed Change
+ModLoader.SetupFileHook( "lua/Onos.lua", "lua/GhoulsBalance/OnosSpeed/Onos.lua", "post" )
 
 --Fade Init Timing fix
 ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/FadePRes/Balance.lua", "post" )
+
+--Auto select upgrades at spawn for aliens
+ModLoader.SetupFileHook( "lua/Egg.lua", "lua/GhoulsBalance/SpawnWithUpgrades/Egg.lua", "post" )
