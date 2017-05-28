@@ -70,3 +70,6 @@ ModLoader.SetupFileHook( "lua/Onos.lua", "lua/GhoulsBalance/OnosSpeed/Onos.lua",
 
 --Fade Init Timing fix
 ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/FadePRes/Balance.lua", "post" )
+
+--Auto select upgrades at spawn for aliens
+ModLoader.SetupFileHook( "lua/Egg.lua", "lua/GhoulsBalance/SpawnWithUpgrades/Egg.lua", "post" )

@@ -15,6 +15,10 @@ Current changes:
 
 - Aliens
     - Upgrades
+        - Autoselect upgrades at spawn
+            - At spawn previously selected upgrades will be reapplied if they are still available.
+            - In case the player hasn't selected an upgrade for an available trait yet a random one will be applied at spawn. 
+            
         - Silence
             - Silence no longer affects any "attack" sounds
             - Requieres now a Shade Hive (instead of a Shift Hive)
