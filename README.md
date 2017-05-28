@@ -43,9 +43,11 @@ Current changes:
         - Focus
             - The extra cooldown is not changing with the veil level anymore and instead static 33%.
     - Lifeforms
-        - Onos 
-            - Boneshield doesn't heal armor anymore and instead grants a mucous shield of 400 hp while being used.
-            
+        - Onos            
+            - Boneshield 
+                - Doesn't heal armor anymore and instead grants a mucous shield of 400 hp while being used.
+            - Reduced the max base speed to 6.4 (from 7.5) and the max base charge speed to 10.5 (from 11.5).
+       
         - Fade
             - Pres cost increased to 37 (from 35)
             

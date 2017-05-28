@@ -65,5 +65,8 @@ ModLoader.SetupFileHook( "lua/Gorge.lua", "lua/GhoulsBalance/GorgeMovement/Gorge
 --Shotgun Light Damage (Reduced pallets and longer research)
 ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/ShotgunLight/Balance.lua", "post" )
 
+--Onos Speed Change
+ModLoader.SetupFileHook( "lua/Onos.lua", "lua/GhoulsBalance/OnosSpeed/Onos.lua", "post" )
+
 --Fade Init Timing fix
 ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/FadePRes/Balance.lua", "post" )
