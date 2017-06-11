@@ -12,11 +12,10 @@ ModLoader.SetupFileHook( "lua/Weapons/Alien/DropStructureAbility.lua", "lua/Ghou
 ModLoader.SetupFileHook( "lua/Weapons/Alien/Metabolize.lua", "lua/GhoulsBalance/Silence/Metabolize.lua", "post" )
 
 -- Biomass 3 research
-ModLoader.SetupFileHook( "lua/AlienTeam.lua", "lua/GhoulsBalance/BiomassThree/AlienTeam.lua", "post" )
+ModLoader.SetupFileHook( "lua/Hive.lua", "lua/GhoulsBalance/BiomassThree/Hive.lua", "post" )
 ModLoader.SetupFileHook( "lua/TeamInfo.lua", "lua/GhoulsBalance/BiomassThree/TeamInfo.lua", "post" )
---ModLoader.SetupFileHook( "lua/TechTree_Server.lua", "lua/GhoulsBalance/BiomassThree/TechTree_Server.lua", "post" )
---ModLoader.SetupFileHook( "lua/AlienTechMap.lua", "lua/GhoulsBalance/BiomassThree/AlienTechMap.lua", "post" )
 ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/BiomassThree/Balance.lua", "post" )
+ModLoader.SetupFileHook( "lua/AlienTeam.lua", "lua/GhoulsBalance/BiomassThree/AlienTeam.lua", "post" )
 
 --drifter techs
 ModLoader.SetupFileHook( "lua/Drifter.lua", "lua/GhoulsBalance/DrifterPassives/Drifter.lua", "post" )
@@ -40,14 +39,8 @@ ModLoader.SetupFileHook( "lua/DamageTypes.lua", "lua/GhoulsBalance/Vampirism/Dam
 --Contamination
 ModLoader.SetupFileHook( "lua/CommAbilities/Alien/Contamination.lua", "lua/GhoulsBalance/Contamination/Contamination.lua", "post" )
 
---Cyst
-ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/Cyst/Balance.lua", "post" )
-
 --Alien Autobuild
 ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/Autobuild/Balance.lua", "post" )
-
---Harvester build time
-ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/Harvester/Balance.lua", "post" )
 
 --Regeneration
 ModLoader.SetupFileHook( "lua/Alien_Server.lua", "lua/GhoulsBalance/Regeneration/Alien_Server.lua", "post" )
@@ -55,9 +48,6 @@ ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/Regeneration/Bala
 
 --Focus
 ModLoader.SetupFileHook( "lua/Ability.lua", "lua/GhoulsBalance/Focus/Ability.lua", "post" )
-
---Gorge Bile
-ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/GorgeBile/Balance.lua", "post" )
 
 --Improved Gorge Movement
 ModLoader.SetupFileHook( "lua/Gorge.lua", "lua/GhoulsBalance/GorgeMovement/Gorge.lua", "post" )

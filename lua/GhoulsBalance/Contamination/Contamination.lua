@@ -1,3 +1,14 @@
+local networkVars = {}
+AddMixinNetworkVars(GameEffectsMixin, networkVars)
+AddMixinNetworkVars(FireMixin, networkVars)
+
+local oldOnCreate = Contamination.OnCreate
+function Contamination:OnCreate()
+	oldOnCreate(self)
+
+	InitMixin(self, GameEffectsMixin)
+	InitMixin(self, FireMixin)
+end
 
 local function SineFalloff( distanceFraction )
 	local piFraction = Clamp(distanceFraction, 0, 1) * math.pi / 2
@@ -31,6 +42,11 @@ end
 
 local oldAddTimedCallback = Contamination.AddTimedCallback
 function Contamination:AddTimedCallback(callback, interval, early)
+	if interval == kTechId.ResearchBioMassThree then
+		callback = SpewBile
+	end
 
 	return oldAddTimedCallback(self, callback, interval, early)
 end
+
+Shared.LinkClassToMap("Contamination", nil, networkVars)

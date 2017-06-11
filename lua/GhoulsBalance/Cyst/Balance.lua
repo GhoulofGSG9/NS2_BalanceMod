@@ -1,1 +1,0 @@
-kCystMaturationTime = 120

@@ -1,25 +1,3 @@
-local networkVars = {
-	isMotherHive = "boolean"
-}
-
-if Server then
-	local oldOnCreate = Hive.OnCreate
-	function Hive:OnCreate()
-		oldOnCreate(self)
-
-		self.isMotherHive = false
-	end
-
-	local oldSetFirstLogin = Hive.SetFirstLogin
-	function Hive:SetFirstLogin()
-		self.isMotherHive = true
-	end
-end
-
-function Hive:GetIsMotherHive()
-	return self.isMotherHive
-end
-
 local oldGetTechAllowed = Hive.GetTechAllowed
 function Hive:GetTechAllowed(techId, techNode, player)
 	local allowed, canAfford = oldGetTechAllowed(self, techId, techNode, player)
@@ -51,5 +29,3 @@ function Hive:UpdateResearch()
 		self.biomassResearchFraction = self:GetResearchProgress()
 	end
 end
-
-Class_Reload("Hive", networkVars)

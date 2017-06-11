@@ -1,43 +1,48 @@
 --Todo: Receive this via a alienteam method
 local kUpgrades = {
+	[kTechId.Shell] = { kTechId.Vampirism, kTechId.Carapace, kTechId.Regeneration },
+	[kTechId.Vampirism] = kTechId.Shell,
+	[kTechId.Carapace] = kTechId.Shell,
+	[kTechId.Regeneration] = kTechId.Shell,
+	[kTechId.Veil] = { kTechId.Silence, kTechId.Aura }, --ignore Focus for autoselect
+	[kTechId.Silence] = kTechId.Veil,
+	[kTechId.Aura] = kTechId.Veil,
+	[kTechId.Focus] = kTechId.Veil,
+	[kTechId.Spur] = { kTechId.Crush, kTechId.Celerity, kTechId.Adrenaline },
+	[kTechId.Crush] = kTechId.Spur,
+	[kTechId.Celerity] = kTechId.Spur,
+	[kTechId.Adrenaline] = kTechId.Spur,
+}
+
+local kStructures = {
 	kTechId.Shell,
-	kTechId.Vampirism,
-	kTechId.Carapace,
-	kTechId.Regeneration,
-
 	kTechId.Veil,
-	kTechId.Silence,
-	kTechId.Aura,
-	kTechId.Focus,
-
-	kTechId.Spur,
-	kTechId.Crush,
-	kTechId.Celerity,
-	kTechId.Adrenaline,
+	kTechId.Spur
 }
 
 function Egg:PickUpgrades(newPlayer)
-	local lastUpgradeList = newPlayer.lastUpgradeList
+	local lastUpgradeList = newPlayer.lastUpgradeList or {}
+	local teamNumber = self:GetTeamNumber()
 
 	local picked = {}
 	for i = 1, #lastUpgradeList do
 		local techId = lastUpgradeList[i]
-		for j = 1, #kUpgrades do
-			if kUpgrades[j] == techId then
-				local s = j - ( j % 4 )
-				picked[kUpgrades[s]] = true
+		if techId then
+			picked[kUpgrades[techId]] = true
 
+			if GetIsTechUseable(techId, teamNumber) then
 				newPlayer:GiveUpgrade(techId)
-
-				break
 			end
 		end
 	end
 
-	for j = 1, #kUpgrades, 4 do
-		if not picked[kUpgrades[j]] then
-			local upgrade = kUpgrades[ j + math.random(1,3)]
-			newPlayer:GiveUpgrade(upgrade)
+	for i = 1, #kStructures do
+		local techId = kStructures[i]
+		if not picked[techId] then
+			local upgrade = table.random(kUpgrades[techId])
+			if GetIsTechUseable(upgrade, teamNumber) then
+				newPlayer:GiveUpgrade(upgrade)
+			end
 		end
 	end
 end
