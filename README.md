@@ -8,7 +8,6 @@ Current changes:
 
 - Marines
     - Shotgun
-        - Increased the Shotgun research time to 60 seconds (from 30).
         - Reduced the amount of pellets the shotgun fires with each shot to 13 (from 17)
         - Increased the base damage of each pellet to 12 ( from 10)
             - These changes lower the possible total base damage of the shotgun to 156/shot (from 170/shot)
@@ -50,7 +49,7 @@ Current changes:
         - Onos            
             - Boneshield 
                 - Doesn't heal armor anymore and instead grants a mucous shield of 400 hp while being used.
-            - Reduced the max base speed to 6.4 (from 7.5) and the max base charge speed to 10.5 (from 11.5).
+            - Reduced the max base speed to 6.6 (from 7.5) and the max base charge speed to 10.5 (from 11.5).
        
         - Fade
             - Pres cost increased to 37 (from 35)
@@ -65,19 +64,13 @@ Current changes:
                     - Increased belly slide control from 10 to 18.                
                     - Speed loss sliding uphill is reduced by 25%.
                 - Decreased the air friction from 0.8 to 0.2 so the Gorge doesn't move like a brick while jumping.
-            - Bilebomb
-                - Decreased the tickrate of the bile damage to 2/sec (from 2.5/sec) and lowered the damage that way to 110/sec (from 137.5/sec)
+       
     - PvE
         - Alien Structures
             -  Increased the alien structures autogrowth to 50% (form 33%) of their normal (with drifter) growth rate.        
         - Hive
             - Added a Biomasss 3 research tech
-                - Costs 60 tres and takes 60 sec to research                        
-        - Harvester
-            - Decreased growth time to 28 secs (from 38 secs)
-        - Cyst
-            - Increase maturity time to 120 seconds (from 45)
-            
+                - Costs 60 tres and takes 60 sec to research            
         - Drifter 
             - Added passive abilities for each hive type:
                 - Camouflage (Shade Hive): Drifters turn invisble when they idle.
@@ -85,7 +78,7 @@ Current changes:
                 - Celerity (Shift Hive): Drifters move 18% faster.
                           
         - Contamination
-            - Disables bile bombs when the Contamination is set on fire.
+            - Contamination doesn't spew bile bombs while being set on fire.
 
 Code @ Github: https://github.com/GhoulofGSG9/Ghouls-Balance-Mod
 
