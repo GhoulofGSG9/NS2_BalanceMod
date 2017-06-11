@@ -15,6 +15,7 @@ ModLoader.SetupFileHook( "lua/Weapons/Alien/Metabolize.lua", "lua/GhoulsBalance/
 ModLoader.SetupFileHook( "lua/Hive.lua", "lua/GhoulsBalance/BiomassThree/Hive.lua", "post" )
 ModLoader.SetupFileHook( "lua/TeamInfo.lua", "lua/GhoulsBalance/BiomassThree/TeamInfo.lua", "post" )
 ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/BiomassThree/Balance.lua", "post" )
+ModLoader.SetupFileHook( "lua/AlienTeam.lua", "lua/GhoulsBalance/BiomassThree/AlienTeam.lua", "post" )
 
 --drifter techs
 ModLoader.SetupFileHook( "lua/Drifter.lua", "lua/GhoulsBalance/DrifterPassives/Drifter.lua", "post" )
