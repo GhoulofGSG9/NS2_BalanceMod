@@ -43,34 +43,10 @@ Current changes:
         - Crush
             - Requires now a Shift Hive (instead of a Crag Hive)
             
-        - Focus
-            - The extra cooldown is not changing with the veil level anymore and instead static 33%.
-    - Lifeforms
-        - Onos            
-            - Boneshield 
-                - Doesn't heal armor anymore and instead grants a mucous shield of 400 hp while being used.
-            - Reduced the max base speed to 6.6 (from 7.5) and the max base charge speed to 10.5 (from 11.5).
-       
-        - Fade
-            - Pres cost increased to 37 (from 35)
-            
-        - Gorge
-            - Movement / Belly Slide
-                - Give players more control over belly slide and make it slightly faster:
-                    - Increased max belly sliding speed to 14, from 13.
-                    - Decreased belly slide cooldown from 1.5 to 1 second.
-                    - Reduced slide friction on infestation from 0.068 to 0.039.
-                    - Reduced slide energy cost from 25 to 20.
-                    - Increased belly slide control from 10 to 18.                
-                    - Speed loss sliding uphill is reduced by 25%.
-                - Decreased the air friction from 0.8 to 0.2 so the Gorge doesn't move like a brick while jumping.
-       
     - PvE
-        - Alien Structures
-            -  Increased the alien structures autogrowth to 50% (form 33%) of their normal (with drifter) growth rate.        
         - Hive
-            - Added a Biomasss 3 research tech
-                - Costs 60 tres and takes 60 sec to research            
+            - Each Hive can now gain up to 4 Biomass
+                 - The 4th biomass costs 60 team ressources and takes 60 seconds to research.
         - Drifter 
             - Added passive abilities for each hive type:
                 - Camouflage (Shade Hive): Drifters turn invisble when they idle.
@@ -78,7 +54,7 @@ Current changes:
                 - Celerity (Shift Hive): Drifters move 18% faster.
                           
         - Contamination
-            - Contamination doesn't spew bile bombs while being set on fire.
+            - Contamination doesn't spew bile bombs after being set on fire.
 
 Code @ Github: https://github.com/GhoulofGSG9/Ghouls-Balance-Mod
 
