@@ -1,1 +1,0 @@
-kAutoBuildRate = 0.5
