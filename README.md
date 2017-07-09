@@ -15,8 +15,13 @@ Current changes:
             - In case the player hasn't selected an upgrade for an available trait yet a random one will be applied at spawn. 
             
         - Silence
-            - Silence no longer affects any "attack" sounds
-            - Requieres now a Shade Hive (instead of a Shift Hive)
+            - Removed Silence 
+            
+        - Phantom
+            - Added the Phantom upgrade back to the game
+            - Phantom cloaks you while moving slowly
+            - Phantom let's you move and attack structures almost silently
+            - Requieres a Shade Hive            
             
         - Vampirism
             - Requires now a Crag Hive (instead of a Shade Hive)
