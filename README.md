@@ -8,6 +8,21 @@ Current changes:
 
 - Marines
 
+    - Flamethrower
+        - The flamethower now deals 100% (instead of 20%) more damage against structures (excluding the hive)
+        - There is no more wind up time for dealing extra structural damage
+        - The flamethrower now deals splash damage: 
+            - That means any enemy inside a range of 2 of a hit target will be receive damage as well
+            - Also a flame puddle is created below the hit target
+        - Increased the burn damage targets take to 5 (from 2) but decreased the burning duration to 3.1 secs (from 6 secs)
+        - Increased the damage flame puddles deal to 12 (from 8) but decreased their lifetime to 2.1 secs (from 5.6)
+        - Increased the damage tick rate of flame puddles to 3 ticks per second (from 1.6) so fast aliens can't pass the flames without taking damage anymore.
+        - Increased the cone width of the flamethrower to 0.3 (from 0.17)
+        - Decreased the amount of energy the Flamthrower removes from a target to 1 (was 3)
+        - The flamethrower no longer removes enzyme effects from it's targets.
+        - Increased the cost of the flamethrower to 15 (was 12) pres.
+        
+
 - Aliens
     - Upgrades
         - Autoselect upgrades at spawn
