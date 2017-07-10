@@ -123,7 +123,7 @@ function Flamethrower:ApplyConeDamage(player)
             --Create flame below target
             if Server then
                 local groundTrace = Shared.TraceRay(trace.endPoint, trace.endPoint + Vector(0, -2, 0), CollisionRep.Default, PhysicsMask.CystBuild, EntityFilterAllButIsa("TechPoint"))
-                if groundTrace ~= 1 then
+                if groundTrace.fraction ~= 1 then
                     fireDirection = fireDirection * 0.55 + trace.normal
                     fireDirection:Normalize()
 
