@@ -43,6 +43,9 @@ function Egg:PickUpgrades(newPlayer)
 			if GetIsTechUseable(upgrade, teamNumber) then
 				newPlayer:GiveUpgrade(upgrade)
 			end
+
+			newPlayer.lastUpgradeList = newPlayer.lastUpgradeList or {}
+			table.insert(newPlayer.lastUpgradeList, upgrade)
 		end
 	end
 end

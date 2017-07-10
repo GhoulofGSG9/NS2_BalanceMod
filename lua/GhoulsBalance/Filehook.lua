@@ -1,11 +1,6 @@
 --Check for diabling global
 if gDisableUWEBalance then return end
 
---Silence
-ModLoader.SetupFileHook( "lua/Weapons/Alien/Ability.lua", "lua/GhoulsBalance/Silence/Ability.lua", "post" )
-ModLoader.SetupFileHook( "lua/Weapons/Alien/DropStructureAbility.lua", "lua/GhoulsBalance/Silence/DropStructureAbility.lua", "post" )
-ModLoader.SetupFileHook( "lua/Weapons/Alien/Metabolize.lua", "lua/GhoulsBalance/Silence/Metabolize.lua", "post" )
-
 -- Biomass 3 research
 ModLoader.SetupFileHook( "lua/Hive.lua", "lua/GhoulsBalance/BiomassThree/Hive.lua", "post" )
 ModLoader.SetupFileHook( "lua/TeamInfo.lua", "lua/GhoulsBalance/BiomassThree/TeamInfo.lua", "post" )
@@ -28,8 +23,16 @@ ModLoader.SetupFileHook( "lua/DamageTypes.lua", "lua/GhoulsBalance/AlienUpgradeS
 ModLoader.SetupFileHook( "lua/Alien_Server.lua", "lua/GhoulsBalance/AlienUpgradeSwap/Alien_Server.lua", "post" )
 
 --Vampirism changes
-ModLoader.SetupFileHook( "lua/Alien.lua", "lua/GhoulsBalance/Vampirism/Alien.lua", "post" )
 ModLoader.SetupFileHook( "lua/DamageTypes.lua", "lua/GhoulsBalance/Vampirism/DamageTypes.lua", "post" )
+
+--Phantom
+ModLoader.SetupFileHook( "lua/Alien.lua", "lua/GhoulsBalance/Phantom/Alien.lua", "post" )
+ModLoader.SetupFileHook( "lua/TechTreeButtons.lua", "lua/GhoulsBalance/Phantom/TechTreeButtons.lua", "post" )
+ModLoader.SetupFileHook( "lua/TechData.lua", "lua/GhoulsBalance/Phantom/TechData.lua", "post" )
+--Silence changes
+ModLoader.SetupFileHook( "lua/Weapons/Alien/Ability.lua", "lua/GhoulsBalance/Silence/Ability.lua", "post" )
+ModLoader.SetupFileHook( "lua/Weapons/Alien/DropStructureAbility.lua", "lua/GhoulsBalance/Silence/DropStructureAbility.lua", "post" )
+ModLoader.SetupFileHook( "lua/Weapons/Alien/Metabolize.lua", "lua/GhoulsBalance/Silence/Metabolize.lua", "post" )
 
 --Contamination
 ModLoader.SetupFileHook( "lua/CommAbilities/Alien/Contamination.lua", "lua/GhoulsBalance/Contamination/Contamination.lua", "post" )
@@ -41,8 +44,11 @@ ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/Regeneration/Bala
 --Focus
 ModLoader.SetupFileHook( "lua/Ability.lua", "lua/GhoulsBalance/Focus/Ability.lua", "post" )
 
---Shotgun Light Damage (Reduced pallets and longer research)
-ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/ShotgunLight/Balance.lua", "post" )
-
 --Auto select upgrades at spawn for aliens
 ModLoader.SetupFileHook( "lua/Egg.lua", "lua/GhoulsBalance/SpawnWithUpgrades/Egg.lua", "post" )
+
+--FT AOE
+ModLoader.SetupFileHook( "lua/Weapons/Marine/Flame.lua", "lua/GhoulsBalance/FlamethrowerAOE/Weapons/Marine/Flame.lua", "post")
+ModLoader.SetupFileHook( "lua/Weapons/Marine/Flamethrower.lua", "lua/GhoulsBalance/FlamethrowerAOE/Weapons/Marine/Flamethrower.lua", "post")
+ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/FlamethrowerAOE/Balance.lua", "post")
+ModLoader.SetupFileHook( "lua/DamageTypes.lua", "lua/GhoulsBalance/FlamethrowerAOE/DamageTypes.lua", "post")
