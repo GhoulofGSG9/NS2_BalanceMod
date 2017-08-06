@@ -33,12 +33,8 @@ function Flamethrower:BurnSporesAndUmbra(startPoint, endPoint)
         table.copy(GetEntitiesWithinRange("WhipBomb", checkAtPoint, 1.6), bombs, true)
         
         for index, bomb in ipairs(bombs) do
-			if bomb.health <= 1 then
-				bomb:TriggerEffects("burn_bomb", { effecthostcoords = Coords.GetTranslation(bomb:GetOrigin()) } )
-				DestroyEntity(bomb)
-			else
-				if bomb.TakeDamage then bomb:TakeDamage() end
-			end
+            bomb:TriggerEffects("burn_bomb", { effecthostcoords = Coords.GetTranslation(bomb:GetOrigin()) } )
+            DestroyEntity(bomb)
             burnSpent = true
         end
         
