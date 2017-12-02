@@ -1,12 +1,6 @@
 --Check for diabling global
 if gDisableUWEBalance then return end
 
--- Biomass 3 research
-ModLoader.SetupFileHook( "lua/Hive.lua", "lua/GhoulsBalance/BiomassThree/Hive.lua", "post" )
-ModLoader.SetupFileHook( "lua/TeamInfo.lua", "lua/GhoulsBalance/BiomassThree/TeamInfo.lua", "post" )
-ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/BiomassThree/Balance.lua", "post" )
-ModLoader.SetupFileHook( "lua/AlienTeam.lua", "lua/GhoulsBalance/BiomassThree/AlienTeam.lua", "post" )
-
 --drifter techs
 ModLoader.SetupFileHook( "lua/Drifter.lua", "lua/GhoulsBalance/DrifterPassives/Drifter.lua", "post" )
 ModLoader.SetupFileHook( "lua/AlienTechMap.lua", "lua/GhoulsBalance/DrifterPassives/AlienTechMap.lua", "post" )
@@ -29,13 +23,11 @@ ModLoader.SetupFileHook( "lua/DamageTypes.lua", "lua/GhoulsBalance/Vampirism/Dam
 ModLoader.SetupFileHook( "lua/Alien.lua", "lua/GhoulsBalance/Phantom/Alien.lua", "post" )
 ModLoader.SetupFileHook( "lua/TechTreeButtons.lua", "lua/GhoulsBalance/Phantom/TechTreeButtons.lua", "post" )
 ModLoader.SetupFileHook( "lua/TechData.lua", "lua/GhoulsBalance/Phantom/TechData.lua", "post" )
+
 --Silence changes
 ModLoader.SetupFileHook( "lua/Weapons/Alien/Ability.lua", "lua/GhoulsBalance/Silence/Ability.lua", "post" )
 ModLoader.SetupFileHook( "lua/Weapons/Alien/DropStructureAbility.lua", "lua/GhoulsBalance/Silence/DropStructureAbility.lua", "post" )
 ModLoader.SetupFileHook( "lua/Weapons/Alien/Metabolize.lua", "lua/GhoulsBalance/Silence/Metabolize.lua", "post" )
-
---Contamination
-ModLoader.SetupFileHook( "lua/CommAbilities/Alien/Contamination.lua", "lua/GhoulsBalance/Contamination/Contamination.lua", "post" )
 
 --Regeneration
 ModLoader.SetupFileHook( "lua/Alien_Server.lua", "lua/GhoulsBalance/Regeneration/Alien_Server.lua", "post" )
@@ -46,9 +38,3 @@ ModLoader.SetupFileHook( "lua/Ability.lua", "lua/GhoulsBalance/Focus/Ability.lua
 
 --Auto select upgrades at spawn for aliens
 ModLoader.SetupFileHook( "lua/Egg.lua", "lua/GhoulsBalance/SpawnWithUpgrades/Egg.lua", "post" )
-
---FT AOE
-ModLoader.SetupFileHook( "lua/Weapons/Marine/Flame.lua", "lua/GhoulsBalance/FlamethrowerAOE/Weapons/Marine/Flame.lua", "post")
-ModLoader.SetupFileHook( "lua/Weapons/Marine/Flamethrower.lua", "lua/GhoulsBalance/FlamethrowerAOE/Weapons/Marine/Flamethrower.lua", "post")
-ModLoader.SetupFileHook( "lua/Balance.lua", "lua/GhoulsBalance/FlamethrowerAOE/Balance.lua", "post")
-ModLoader.SetupFileHook( "lua/DamageTypes.lua", "lua/GhoulsBalance/FlamethrowerAOE/DamageTypes.lua", "post")

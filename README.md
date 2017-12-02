@@ -4,24 +4,7 @@
 
 This mod contains various prototype balance changes based on various ideas of the NS2 balance team.
 
-Current changes:
-
-- Marines
-
-    - Flamethrower
-        - The flamethrower now deals 100% (instead of 20%) more damage against structures (excluding the hive)
-        - There is no more wind up time for dealing extra structural damage
-        - The flamethrower now deals splash damage: 
-            - That means any enemy inside a range of 2 of a hit target will be receive damage as well
-            - Also a flame puddle is created below the hit target
-        - Increased the burn damage targets take to 5 (from 2) but decreased the burning duration to 3.1 secs (from 6 secs)
-        - Increased the damage flame puddles deal to 12 (from 8) but decreased their lifetime to 2.1 secs (from 5.6)
-        - Increased the damage tick rate of flame puddles to 3 ticks per second (from 1.6) so fast aliens can't pass the flames without taking damage anymore.
-        - Increased the cone width of the flamethrower to 0.3 (from 0.17)
-        - Decreased the amount of energy the flamethrower removes from a target to 1 (from 3)
-        - The flamethrower no longer removes enzyme effects from its targets.
-        - Increased the cost of the flamethrower to 15 (from 12) pres.
-        
+Current changes:        
 
 - Aliens
     - Upgrades
@@ -60,17 +43,11 @@ Current changes:
             - Now requires a Shift Hive (instead of a Crag Hive)
             
     - PvE
-        - Hive
-            - Each Hive can now gain up to 4 Biomass
-                 - The 4th biomass costs 60 team resources and takes 60 seconds to research.
         - Drifter 
             - Added passive abilities for each hive type:
                 - Camouflage (Shade Hive): Drifters turn invisible when they idle.
                 - Regeneration (Crag Hive): Drifters regenerate 3% of their max hp every 2 secs while not at full health.
                 - Celerity (Shift Hive): Drifters move 18% faster.
-                          
-        - Contamination
-            - Contamination doesn't spew bile bombs after being set on fire.
 
 Code @ Github: https://github.com/GhoulofGSG9/Ghouls-Balance-Mod
 
